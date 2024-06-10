@@ -3,6 +3,7 @@ import { FinancialInstrumentModule } from "./financialInstrument/financialInstru
 import { PriceRecordModule } from "./priceRecord/priceRecord.module";
 import { BatchRunRecordModule } from "./batchRunRecord/batchRunRecord.module";
 import { BatchRunModule } from "./batchRun/batchRun.module";
+import { BatchProcessingModule } from "./BatchProcessing/batchprocessing.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -19,6 +20,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     PriceRecordModule,
     BatchRunRecordModule,
     BatchRunModule,
+    BatchProcessingModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
